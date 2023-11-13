@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+
+        <h1 class="cabecalho-title">Portfolio</h1>
+        <ul class="cabecalho-lista">
+            <li>Meus serviços</li>
+            <li>Fale comigo</li>
+            <li>Portfolio</li>
+        </ul>
+
+    </header>
+    <section class="ola">
+
+        <div class="ola-texto">
+            <h1 class="ola-texto_nome"><strong>Olá, meu nome é Gustavo</strong></h1>
+            <p class="ola-texto_intro">Sou programador e gostaria de te apresentar o meu trabalho através deste portfolio</p>
+            <a class="ola-texto_botao" href="#">Meus Serviços</a>
+        </div>
+
+        <div class="ola-image">
+        </div>
+
+    </section>
+
+    <div class="clientes">
+        <h4 class="clientes-title">Alguns dos meus clientes:</h4>
+        <div class="logocliente">
+            <img src="" alt=""> 
+        </div>
+        <div class="logocliente">
+            <img src="" alt=""> 
+        </div>
+        <div class="logocliente">
+            <img src="" alt=""> 
+        </div>
+    </div>
+
+    <section class="servicos">
+        <div class="servicos-intro">
+            <span class="destaque">Conheça</span>
+            <h2 class="servicos-intro_title">Meus Serviços</h2>
+            <p>Vou ajudar a sua empresa a alcançar grandes resultados</p>
+        </div>
+        <div class="servicos-itens">
+            <div class="servicos-itens_item">
+                <div class="item-container"><img class="item-logo" src="assets/images/mala.png" alt="mala"></div>
+                <h3>Consultoria</h3>
+                <p>Te ajudo a organizar sua empresa e melhorar seus resultados</p>
+            </div>
+            <div class="servicos-itens_item">
+                <div class="item-container"><img class="item-logo" src="assets/images/seta.png" alt="seta"></div>
+                <h3>Email Marketing</h3>
+                <p>Gerenciar campanhas é dificil. Conte comigo para te ajudar.</p>
+            </div>
+            <div class="servicos-itens_item">
+                <div class="item-container"><img class="item-logo" src="assets/images/www.png" alt="globo"></div>
+                <h3>Criação de sites</h3>
+                <p>Desenvolvo seu site inteiro do zero e te entrego prontinho</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="orcamento">
+        <div class="orcamento-imagem">
+            <video id="video1" src="assets/videos/profit.mp4" loop></video>
+        </div>
+
+        <div class="orcamento-texto">
+            <span class="destaque">Economize seu tempo</span>
+            <h2 class="orcamento-texto_title">Ganhei mais dinheiro</h2>
+            <p class="orcamento-texto_texto">Digite aqui seu endereço de e-mail. Eu entrarei em contato para fonecer um diagnóstico gratuito.</p>
+            <form class="formulario" action="" method="get">
+                <input class="formulario-campo" type="email" name="" id="" placeholder="E-mail">
+                <button class="formulario-botao" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <span class="destaque">Conheça meu portfolio</span>
+        <h2 class="portfolio-title">Portfolio</h2>
+        <div>
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var vid = document.getElementById("video1");
+
+    function slowPlaySpeed() { 
+    vid.playbackRate = 0.5;
+    }
+
+    vid.onplay = function() {
+    slowPlaySpeed();
+    };
+    </script>
+</body>
+</html>
