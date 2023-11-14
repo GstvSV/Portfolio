@@ -42,6 +42,11 @@ p{
     gap: 2rem;
 }
 
+.cabecalho-lista_itens:hover{
+    color: var(--roxolegal);
+    font-weight: bold;
+}
+
 .ola{
     display: flex;
     justify-content: space-between;
