@@ -237,8 +237,28 @@ p{
     background-color: #7155c4;
 }
 
+.portfolio{
+    margin-bottom: 8rem;
+}
+
 .portfolio-title{
     font-size: 2rem;
     margin: 2rem 0;
 }
+
+.portfolio-itens{
+    display: flex;
+    gap: 4rem;
+}
+
+.portfolio-item img{
+    width: 300px;
+    border-radius: 2rem;
+}
+
+.portfolio-item img:hover{
+    transform: scale(1.1);
+}
+
+
 
