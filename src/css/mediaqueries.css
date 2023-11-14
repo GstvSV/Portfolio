@@ -1,4 +1,12 @@
 
+
+@media (max-width: 400px){
+    .cabecalho{
+        flex-direction: column;
+        gap:2rem;
+    }
+}
+
 @media (max-width: 972px){
 
     .cabecalho{
