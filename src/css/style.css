@@ -248,6 +248,7 @@ p{
 
 .portfolio-itens{
     display: flex;
+    flex-wrap: wrap;
     gap: 4rem;
 }
 
